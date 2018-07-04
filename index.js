@@ -25,7 +25,7 @@ if (argv._.length>0) {
         var jsonContent = readJSON(argv._[i]);
         var c = jsonContent.features.length;  
         for (var j = 0; j < c; j++) {
-            var item = jsonContent.features[j];//https://github.com/developmentseed/unique/issues/12#issuecomment-382442848            
+            var item = jsonContent.features[j];            
             item.properties.date=item.properties.date>2010?20017:2007;
             item.properties.MC_ID=mc_ids[item.properties.landcover]?mc_ids[item.properties.landcover]:mc_ids[item.properties.type];            
         }
