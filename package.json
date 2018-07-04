@@ -1,0 +1,17 @@
+{
+  "name": "addmc",
+  "version": "1.0.0",
+  "description": "Add MC Tag",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "addmc": "index.js"
+  },
+  "author": "@ridixcr",
+  "license": "ISC",
+  "dependencies": {
+    "minimist": "^1.2.0"
+  }
+}
